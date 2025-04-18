@@ -1,0 +1,45 @@
+
+
+#mainbutt {
+    width: 100%;
+    height: 100%;
+    
+
+
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    
+    
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.mainbutt {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    border-radius: 20px;
+    
+
+    height: 150px;
+    width: 250px;
+    margin-bottom: 150px;
+    border: 2px solid black;
+}
+
+#accept {
+    background-color: #4CAF50; /* Green */
+}
+
+#reject {
+    background-color: #f44336; /* Red */
+}
+
+#accept:hover {
+    background-color: #306932; /* Green */
+}
+
+#reject:hover {
+    background-color: #862821; /* Red */
+}

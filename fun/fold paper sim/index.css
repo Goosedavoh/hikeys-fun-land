@@ -1,0 +1,82 @@
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+
+   height: 200;
+    width: 400;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#clicker {
+    height: 100px;
+    width: 200px;;
+}
+
+button {
+    
+    background-color: white;
+    color: rgb(41, 41, 41);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #a1a1a1;
+    color: rgb(0, 0, 0);
+}
+
+button:active {
+    background-color: #8a7a7a;
+    color: rgb(36, 18, 18);
+}
+
+
+#counter {
+    color: white;
+    font-size: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.upgrades {
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.upgrade {
+    
+    height: 50px;
+    width: 100px;
+}
+
+.showstats {
+    color: white;
+    font-size: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+}
